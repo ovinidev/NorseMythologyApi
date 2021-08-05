@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "strapi-landing-pages",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -19,6 +19,7 @@
     "strapi-plugin-email": "3.6.6",
     "strapi-plugin-i18n": "3.6.6",
     "strapi-plugin-upload": "3.6.6",
+    "strapi-plugin-users-permissions": "3.6.6",
     "strapi-provider-upload-cloudinary": "^3.6.6",
     "strapi-utils": "3.6.6"
   },
@@ -26,7 +27,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "c0ad51cb-7ad7-4063-9a34-83e3b6fd6ad1"
+    "uuid": "460e3a9e-e1bd-4a4e-8654-1e062fc6729e"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",

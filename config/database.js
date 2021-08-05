@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', 'cluster0.b2zro.mongodb.net'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'backend'),
+        database: env('DATABASE_NAME', 'StrapiLandingPages'),
         username: env('DATABASE_USERNAME', 'vinimedeiros13'),
         password: env('DATABASE_PASSWORD', 'NEO45lol1190'),
       },
