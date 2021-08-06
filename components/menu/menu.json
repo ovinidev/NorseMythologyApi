@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "name": "menu",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "logo_link": {
+      "type": "string",
+      "required": true
+    },
+    "open_in_new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link"
+    }
+  }
+}
