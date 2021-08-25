@@ -9,6 +9,7 @@
     "build": "strapi build",
     "strapi": "strapi",
     "postinstall": "cd plugins/wysiwyg && npm i"
+
   },
   "devDependencies": {},
   "dependencies": {
@@ -32,7 +33,7 @@
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
-    "yarn": ">=6.0.0"
+    "yarn": "^1.22.5"
   },
   "license": "MIT"
 }
